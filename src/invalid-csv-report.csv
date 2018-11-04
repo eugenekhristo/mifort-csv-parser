@@ -2,7 +2,7 @@ Age,Name,Surname,Mail,DateofReg,Phone,TimeOfReg
 ------------------------------------------------------------------------------------------------
 20,Dima,Dmitriev,Dima@mail.,2016-02-05,+375 29 352654,18:50:00
 ------------------------------------------------------------------------------------------------
-In column "Mail" value - "Dima@mail." is invalid. REASON - "Dima@mail." is not valid Email type. Valid format: [S]+@[a-zA-Z0-9]+.[a-zA-Z0-9]+
+In column "Mail" value - "Dima@mail." is invalid. REASON - "Dima@mail." is not valid Email type. Valid format: [S]+@[a-zA-Z0-9]+.[a-zA-Z0-9]+
 In column "Phone" value - "+375 29 352654" is invalid. REASON - "+375 29 352654" is not valid Phone type. Check the phone number more accurately.
 ------------------------------------------------------------------------------------------------
 21,Vasya,Petrov,Vasya@mail.ru,2015-03-07,+375442569845,28:63
@@ -22,7 +22,7 @@ In column "Phone" value - "+375 29 14521445" is invalid. REASON - "+375 29 14521
 -19,Oleg,Kats,@mail.ru,2016-01-29,+375 28 2540033,22:06:00
 ------------------------------------------------------------------------------------------------
 In column "Age" value - "-19" is invalid. REASON - "-19" is invalid. Min allowed value is 0, max - 100 and actual one is - "-19"
-In column "Mail" value - "@mail.ru" is invalid. REASON - "@mail.ru" is not valid Email type. Valid format: [S]+@[a-zA-Z0-9]+.[a-zA-Z0-9]+
+In column "Mail" value - "@mail.ru" is invalid. REASON - "@mail.ru" is not valid Email type. Valid format: [S]+@[a-zA-Z0-9]+.[a-zA-Z0-9]+
 In column "Phone" value - "+375 28 2540033" is invalid. REASON - "+375 28 2540033" is not valid Phone type. Check the phone number more accurately.
 ------------------------------------------------------------------------------------------------
 11,Elena,Glazov,Elena@mail.ru,2014-04-24,+375 30 2561421,18:04:00
@@ -32,6 +32,6 @@ In column "Phone" value - "+375 30 2561421" is invalid. REASON - "+375 30 256142
 145,Igor,Igorov,Igor@mailru,25.00.2018,+375 29 340157,11:22:00
 ------------------------------------------------------------------------------------------------
 In column "Age" value - "145" is invalid. REASON - "145" is invalid. Min allowed value is 0, max - 100 and actual one is - "145"
-In column "Mail" value - "Igor@mailru" is invalid. REASON - "Igor@mailru" is not valid Email type. Valid format: [S]+@[a-zA-Z0-9]+.[a-zA-Z0-9]+
+In column "Mail" value - "Igor@mailru" is invalid. REASON - "Igor@mailru" is not valid Email type. Valid format: [S]+@[a-zA-Z0-9]+.[a-zA-Z0-9]+
 In column "DateofReg" value - "25.00.2018" is invalid. REASON - Sorry, but "25.00.2018" is not valid Date type. Allowed formats: [MM-DD-YYYY,MM/DD/YYYY,MM.DD.YYYY,DD-MM-YYYY,DD/MM/YYYY,DD.MM.YYYY,YYYY-MM-DD,YYYY/MM/DD,YYYY.MM.DD]
 In column "Phone" value - "+375 29 340157" is invalid. REASON - "+375 29 340157" is not valid Phone type. Check the phone number more accurately.
