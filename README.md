@@ -27,6 +27,14 @@ Just clone this repo locally. After run `npm i`. Put your `.csv` file into `src/
  ## Testing
  - type `npm test` for testing app with mocha.
  - type `npm run coverage` for getting test coverage report.
+
+  Actual Coverage summary can be seen **[HERE][1]** ! ! !
+
   > Example of test coverage report:
 
  <img src="https://pp.userapi.com/c849432/v849432498/bc818/ZdEglOmkCnE.jpg" title="Test Coverage Example" width="500">
+
+_Testing to be continue ... 👍_
+
+
+[1]: https://vibrant-wescoff-0d7571.netlify.com/ "Coverage summary resides here"
