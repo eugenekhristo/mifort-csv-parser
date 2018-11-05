@@ -10,6 +10,7 @@ import { csvConfig } from './csv-config';
 import { validateParsedCsv } from './utils/csv-validator';
 import { writeInvalidReportFile } from './utils/write-invalid-report';
 import { writeToDb } from './services/writeToDb';
+import { simulateProcessing } from './decorations/simulateProcessing';
 
 const fileParser = new FileParser();
 
@@ -33,8 +34,8 @@ async function runProgram(csvName: string) {
 
 
 // READING INPUT (maybe put in separate file)
-const onUserInput = (csvName: string) => {
-  console.log('\n')
+const onUserInput = async (csvName: string) => {
+  await simulateProcessing();
   interfaceInstance.close();
   stdin.destroy();
   runProgram(csvName);

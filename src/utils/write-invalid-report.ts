@@ -35,7 +35,9 @@ import 'colors';
       finalReport,
       err => { 
         if (err) throw err;
-        console.log('Report about invalid data are written!\n'.yellow);
+        // TODO: if different OS - check if there's / or \ - and then split by appropriate slash
+        const filename = filePath.split('\\').slice(-1)[0];
+        console.log(`${filename} are written in your src/ directory!\n`.yellow);
       }
     )
 

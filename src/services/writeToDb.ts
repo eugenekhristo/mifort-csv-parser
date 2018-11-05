@@ -39,5 +39,7 @@ export function writeToDb(tableName: string, csvConfig: CsvConfig, csvValidation
     });
   }
 
-  connection.end();
+  connection.end(() => {
+    process.exit(0);
+  });
 }
